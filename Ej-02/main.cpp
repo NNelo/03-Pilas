@@ -17,6 +17,8 @@ bool sonIguales(Pila<T> *pil1, Pila<T> *pil2) {
     return false;
 }
 
+namespace Ej02 {
+
 int main() {
     std::cout << "Ejercicio 03/02\n" << std::endl;
     cout << "Comparar Pilas\n";
@@ -36,7 +38,7 @@ int main() {
     cout << "vacias? " << sonIguales(p1, p2) << endl;
 
     for (int j = 0; j < 5; ++j) {
-        p1->push(5-j);
+        p1->push(5 - j);
         p2->push(j);
     }
 
@@ -48,3 +50,5 @@ int main() {
 
     return 0;
 }
+
+};
